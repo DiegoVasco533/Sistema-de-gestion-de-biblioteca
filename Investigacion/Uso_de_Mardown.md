@@ -1,94 +1,88 @@
-8. ¿Qué es Markdown y por qué se utiliza en proyectos de software?
+# investigación.
 
-Markdown es un lenguaje de marcas ligero con sintaxis de texto plano, capaz de convertirse a HTML y otros formatos mediante herramientas del mismo nombre.
+# ¿Qué es Markdown y para qué se usa en el desarrollo de software?
 
-Es usado para:
-- Archivos README.md  
-- Wikis  
-- Documentación técnica  
-- Mensajes en foros  
-- Documentación de proyectos de software  
+**Markdown** es un lenguaje de marcado sencillo que permite escribir texto con formato utilizando una sintaxis fácil de leer y editar.  
+A partir de texto plano, puede generarse HTML u otros formatos sin necesidad de herramientas avanzadas.
 
-Fue creado en 2004 por **John Gruber** con el objetivo de permitir escribir de forma fácil, legible y sin parecer código. Los documentos se leen casi como texto normal.
+En el ámbito del desarrollo de software se emplea porque:
 
-### Sitios que usan Markdown
-GitHub, Stack Exchange, Reddit, Diaspora, OpenStreetMap, SourceForge y más.
-
-### Ventajas de Markdown
-- **Facilidad de uso:** muy rápido de aprender.  
-- **Documentación estándar:** ideal para proyectos con GitHub y GitLab.  
-- **Trabajo colaborativo:** funciona perfecto con control de versiones (Git).  
-- **Compatibilidad:** casi todas las herramientas de desarrollo lo soportan.  
-- **Productividad:** escribir sin un editor pesado mejora la velocidad de trabajo.
+- Facilita la creación de documentación ligera como archivos `README.md`.
+- Permite redactar guías técnicas, notas y especificaciones de forma ordenada.
+- Funciona en diversas plataformas, editores y servicios para desarrolladores.
+- Favorece la colaboración, ya que el contenido es claro incluso sin procesarlo.
+- Se integra perfectamente con sistemas como Git, GitHub y GitLab.
 
 ---
 
-# ⭐ EJEMPLO PRÁCTICO DE USO DE MARKDOWN
+# Ejemplo práctico de Markdown
 
-A continuación tienes un ejemplo práctico que demuestra encabezados, listas, tablas, imágenes, enlaces y código.
+## Encabezados
 
----
-
-## 🧩 Encabezados
-
-```markdown
-# Título nivel 1
-## Título nivel 2
-### Título nivel 3
-#### Título nivel 4
-## Texto con énfasis
-
-- *Cursiva*
-- **Negrita**
-- ***Negrita y cursiva***
-- ~~Texto tachado~~
+# Título de Nivel 1  
+## Título de Nivel 2  
+### Título de Nivel 3  
 
 ---
 
-## 📋 Listas
-
-### Lista no ordenada
-- Elemento 1
-- Elemento 2
-  - Sub-elemento 2.1
-  - Sub-elemento 2.2
-- Elemento 3
-
-### Lista ordenada
-1. Primer punto
-2. Segundo punto
-3. Tercer punto
-   1. Subpunto 3.1
-   2. Subpunto 3.2
+## Listas
 
 ### Lista de tareas
-- [x] Tarea completada
-- [ ] Tarea pendiente
-- [ ] Otra más
+
+- Revisar documentación  
+- Crear prototipo  
+- Preparar presentación  
+
+### Categorías
+
+- Electrónica  
+  - Computadoras  
+  - Teléfonos  
+- Oficina  
+  - Libretas  
+  - Lápices  
 
 ---
+## 🔗 Ejemplos de Enlaces en Markdown
 
-## 📊 Tabla de ejemplo
+### Enlace simple
+[Visita GitHub](https://github.com)
 
-| Producto | Cantidad | Precio |
-|----------|:--------:|--------|
-| Manzanas |    10    | $5.00 |
-| Naranjas |     4    | $2.50 |
-| Uvas     |     2    | $4.00 |
+### Enlace a una página específica
+[Documentación de Markdown](https://www.markdownguide.org/basic-syntax/)
 
----
+### Enlace dentro de tu repositorio
+[Ir al archivo README](./README.md)
 
-## 🔗 Enlaces útiles
+### Enlace con texto descriptivo
+[Universidad Estatal de Milagro - UNEMI](https://www.unemi.edu.ec)
 
-- [Guía oficial de Markdown](https://www.markdownguide.org)
-- [Sitio oficial de Markdown](https://www.markdownlang.com)
-- https://www.unemi.edu.ec/
-- https://github.com/
+### Enlace a una sección dentro del mismo documento
+[Ir a la sección de Ventajas](#ventajas-de-usar-markdown-en-combinacion-con-github)
 
----
 
-## 🖼️ Imagen (visualizable en GitHub)
+# Imágenes
 
-! [logo de Markdown]
+![Markdown] 
 
-<img width="200" height="200" alt="image" src=https://markdown.net.br/assets/img/basic-syntax/markdown-logo-small.png/>
+
+<img width="200" height="200" alt="image" src="https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2015/12/learn-markdown.jpg" />
+
+
+## Tabla
+
+| Lenguaje | Uso Principal        | Popularidad |
+|----------|-----------------------|-------------|
+| Python   | Desarrollo general    | Alta        |
+| Go       | Sistemas y backend    | Media       |
+| Rust     | Sistemas seguros      | En aumento  |
+
+
+
+## Beneficios de utilizar Markdown junto con GitHub
+
+- **Renderizado integrado:** GitHub muestra los archivos `.md` con formato directo, permitiendo leer contenido estructurado sin herramientas adicionales.  
+- **Aprendizaje rápido:** La sintaxis es mínima y accesible, ideal para quienes necesitan documentar sin complicaciones técnicas.  
+- **Control de cambios:** Markdown funciona de manera ideal con Git, facilitando comparaciones, historial y recuperación de versiones anteriores.  
+- **Trabajo en equipo:** Varios colaboradores pueden proponer mejoras, comentar y fusionar cambios en la documentación de forma ordenada.  
+- **Alta compatibilidad:** Los documentos Markdown son ligeros, se abren en casi cualquier editor y pueden migrarse fácilmente entre proyectos o plataformas.
